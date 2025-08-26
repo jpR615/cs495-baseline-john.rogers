@@ -1,8 +1,8 @@
-def test1():
+def test_lowercaseString():
     assert utils.normalize("CarrOt") == "carrot"
 
-def test2():
+def test_dashString():
     assert utils.normalize("young sheldon") == "young-sheldon"
 
-def test3():
+def test_lowerCaseString_and_dashString():
     assert utils.normalize("Apples and Bananas") == "apples-and-bananas"
